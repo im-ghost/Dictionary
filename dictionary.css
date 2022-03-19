@@ -1,0 +1,187 @@
+*{
+
+      box-sizing:border-box;
+
+      }
+      body{
+               background-image: repeating-conic-gradient(#a8a8a9,#bbcbbb 50deg,#cdcdcd);
+      }
+
+#fa{
+
+       display:flex;
+position: relative;
+flex-flow:row nowrap;
+
+justify-content:space-around;
+
+width:90%;
+
+border:3px solid blue;
+
+border-radius:10px;
+
+height:2.5em;
+
+align-items:center;
+
+      }
+      .btn{
+align-self:flex-start;
+border:none;
+display:inline-block;
+
+vertical-align:middle;
+overflow:hidden;
+text-decoration:none;
+color:gold;
+background-color:inherit;
+text-align:center;
+cursor:pointer;
+white-space:nowrap}
+.btn:hover{
+        box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+        
+        
+}
+input[type="text"]{
+
+outline:none;
+
+border:none;
+
+z-index:;
+
+width:100%;
+
+background-color: transparent;
+
+}
+#result{
+        background-image: repeating-linear-gradient(45deg,#aaaaaa 20%,#ababab 15%,#cdcdcd);
+        border-radius:20px;
+        box-shadow:4px 4px 5px rgba(240,240,240,.3),
+    -4px -4px 5px rgba(250,250,250,.3), inset 6px 6px 6px rgba(225,225,225,.3), inset -6px -6px 6px rgba(224,224,224,.3);
+
+text-align:center;  
+        
+}      
+
+      #search{
+
+       position: absolute;
+
+       top: 4px;
+
+       right: 4px;
+
+      
+
+      }
+
+ ul{
+         list-style-type:square;
+         list-style-position: outside;
+ }     
+.synonym{
+list-style-type:circle;
+list-style-position: outside;
+}
+.antonym{
+l
+}
+      #search-input{
+
+      /* padding-left:30px;*/
+
+      }
+
+      
+
+      #search{
+
+       position: absolute;
+
+       right: 5px;
+
+       bottom: 10px;
+
+       font-size: 1.2em;
+
+      }
+
+      
+
+      warning{
+
+       color: red;
+
+      }
+
+      
+
+      .transcription{
+
+       font-style: italic;
+
+       color: #555;
+
+       font-family: "Sacramento",fantasy;
+
+      }
+
+      
+
+      .part-of-speech{
+
+       text-transform: capitalize;
+
+       font-weight: bold;
+
+      }
+
+      
+
+      .synonym,.pos-synonym{
+
+       color: #0136ff;
+
+      }
+
+      
+
+      .antonym,.pos-antonym{
+
+       color: #fa9317}
+
+      
+
+      .example{
+
+       font-style: italic;
+
+       color: darkgreen;
+
+       font-size:1.2em;
+
+      }
+
+      
+
+      .yellow{
+
+       color: goldenrod;
+
+      }
+
+      
+
+      
+
+      h3{
+
+       font-weight: bold;
+
+       font-size: 1.2em;
+
+      }
